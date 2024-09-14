@@ -1,0 +1,28 @@
+{
+  "name": "lora-auth",
+  "version": "0.1.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-with-onye/lora-auth-package"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "bin": "./dist/index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/node": "^22.5.4",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.5.0"
+  }
+}
